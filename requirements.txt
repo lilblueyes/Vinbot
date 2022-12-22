@@ -1,0 +1,8 @@
+tenacity
+requests
+hikari
+python-dotenv
+hikari-lightbulb
+uvloop; sys_platform != "win32"
+dataset
+loguru
