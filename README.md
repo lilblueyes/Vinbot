@@ -19,7 +19,7 @@ Once you saved a subscription, the bot will fetch new articles every 30 seconds 
 1. Create an application on [Discord Developer](https://discord.com/developers/applications)
 2. Create a bot in your application
 3. Copy the `.env.example` file to `.env` and copy/paste the token
-4. Invite your bot by generating an URL (OAuth2 -> URl Generator)
+4. Invite your bot by generating an URL (OAuth2 -> URL Generator)
 
 **Important:** Set the following scopes:
 
