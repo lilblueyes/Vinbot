@@ -35,7 +35,7 @@ And also set the following bot permission:
 
 ### Installation
 
-You must have `python3` and `pip3` installed, Python >3.8 is recommended.
+Python >3.8 is recommended.
 
 1. Install dependencies: `pip install -r requirements.txt`
 2. Start the bot: `python main.py`
@@ -44,23 +44,3 @@ If you want to stop the bot, you can just press **CTRL+C** once. Don't spam **CT
 
 ### Keeping the bot up all the time
 
-I highly recommend running this bot via a service on Linux distributions.
-
-Here is an example of a Linux service, you will certainly need to change paths:
-
-```ini
-[Unit]
-Description=vinted_scraper
-After=network.target
-
-[Service]
-ExecStart=python3 /root/vintedpy/main.py
-EnvironmentFile=/root/vintedpy/.env
-Restart=on-failure
-SyslogIdentifier=vinted
-RestartSec=5
-TimeoutStartSec=infinity
-
-[Install]
-WantedBy=multi-user.target
-```
