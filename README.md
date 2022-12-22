@@ -37,8 +37,8 @@ And also set the following bot permission:
 
 You must have `python3` and `pip3` installed, Python >3.8 is recommended.
 
-1. Install dependencies: `pip3 install -r requirements.txt`
-2. Start the bot: `python3 main.py`
+1. Install dependencies: `pip install -r requirements.txt`
+2. Start the bot: `python main.py`
 
 If you want to stop the bot, you can just press **CTRL+C** once. Don't spam **CTRL+C**, it may take a few seconds before it completely stop because of the background thread used to sync items.
 
